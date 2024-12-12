@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>About Me Section</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:wght@400;700&family=Nunito+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Nunito Sans", sans-serif;
+    }
+
+    /* NAV BAR */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background: black;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    li {
+      float: right;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      color: #ADBCC3;
+    }
+
+    .active {
+      background-color: #ADBCC3;
+    }
+
+    /* ABOUT ME */
+    .about-me-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #000;
+      color: white;
+      padding: 150px;
+      gap: 20px;
+    }
+
+    .about-me-section img {
+      width: 100%;
+      max-width: 460px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text {
+      flex: 1;
+    }
+
+    .about-me-text h1 {
+      font-size: 7rem;
+      font-family: "Instrument Sans", sans-serif;
+      margin: 0;
+      text-align: right;
+    }
+
+    .about-me-text p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      font-family: "Nunito Sans", sans-serif;
+    }
+
+    /* SECOND HALF */
+    .second-half {
+      padding: 50px;
+      margin-bottom: 180px;
+      background: linear-gradient(to top, #FFFFFF 0%, #ADBCC3 100%);
+      text-align: center;
+    }
+
+    .second-half h1 {
+      font-size: 5rem;
+      font-family: "Instrument Sans", sans-serif;
+      margin-bottom: 40px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .column {
+      width: 30%;
+    }
+
+    .column h2 {
+      color: black;
+    }
+
+    .column p {
+      color: black;
+    }
+
+    /* Responsive layout for smaller screens */
+    @media screen and (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    /* PERSONAL SECTION */
+    .personal-section {
+      padding: 50px;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    .personal-section h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      font-family: "Instrument Sans", sans-serif;
+    }
+
+    .personal-section p {
+      font-size: 1.5rem;
+      line-height: 1.8;
+      font-family: "Nunito Sans", sans-serif;
+    }
+
+    table, tr, th, td {
+      margin-left: 300px;
+      text-align: left;
+      border: 1px solid white;
+      border-collapse: collapse;
+      font-family: "Nunito Sans", sans-serif;
+      color: white;
+    }
+
+    th, td {
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+ <!-- Nav Bar -->
+<ul>
+    <!-- Nav Bar -->
+    <li><a href="https://arabella555.github.io/personal-website-homepage/">home</a></li>
+    <li><a href="https://arabella555.github.io/personal-website-aboutpage/">about</a></li>
+    <li><a href="https://arabella555.github.io/personal-website-mywork/">my work</a></li>
+    <li><a href="https://arabella555.github.io/personal-website-contact/">contact</a></li>
+  </ul>
+  
+  <!-- About Me Section -->
+  <div class="about-me-section">
+    <!-- About Me Image -->
+    <div>
+      <img src="headshot.jpg" alt="About Me Image">
+    </div>
+
+    <!-- About Me Text -->
+    <div class="about-me-text">
+      <h1>about me</h1>
+      <p>Hi! I’m Arabella, a second-year student at the University of Waterloo, studying Global Business and Digital Arts. I’m passionate about using digital media and design to tell compelling stories that captivate and engage audiences. When I’m not immersed in my creative projects, you can find me café hopping downtown or re-watching the Scream franchise!</p>
+    </div>
+  </div>
+
+  <!-- Second Section -->
+  <div class="second-half">
+    <h1>MY BIG THREE</h1>
+    <div class="row">
+      <div class="column">
+        <h2>01. Design with Purpose</h2>
+        <p>I always consider the emotional impact of everything I create on audiences and users, ensuring that each design effectively resonates and communicates its intended message.</p>
+      </div>
+      <div class="column">
+        <h2>02. Balance Creativity and Functionality</h2>
+        <p>In my designs, I strive to create a balance between aesthetic appeal and practical usability.</p>
+      </div>
+      <div class="column">
+        <h2>03. Stay Current and Adapt</h2>
+        <p>Design tools and trends constantly evolve. I ensure to stay updated on industry trends, adapting my skills and techniques accordingly.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Personal Section -->
+  <div class="personal-section">
+    <h1>let's get personal.</h1>
+    <p>Here’s a deeper look into what drives me, my inspirations, and the experiences that shaped my journey as a creative.</p>
+
+    <table>
+      <tr>
+        <td><strong>I previously...</strong></td>
+        <td>
+          <br>
+          • Volunteered for Reading to Flourish, creating health and wellness posters during COVID-19<br>
+            • Worked with Justice for Society Magazine as a social media manager for their Instagram<br>
+            • Moved to Waterloo, Ontario to attend the University of Waterloo<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>I currently...</strong></td>
+        <td>
+          <br>
+          • Work part-time for my university's student-run magazine, Imprint<br>
+            • Co-direct the design of Technolgap's website<br>
+            • Picked up playing the guitar again<br> • Am adding to my collection of coffee mugs <br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>I plan to...</strong></td>
+        <td>
+          <br>
+          • Complete more design projects<br>
+          • Expand my coding skills <br>
+          • Try every coffee shop in Waterloo <br>
+            • Attend as many concerts as I can in 2025 <br>
+          <br>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
